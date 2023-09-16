@@ -32,7 +32,7 @@ void print_python_bytes(PyObject *p)
 	printf("  first %ld bytes:", ff);
 
 	for (ha = 0; ha < ff; ha++)
-		if (string[i] >= 0)
+		if (sa[ha] >= 0)
 			printf(" %02x", sa[ha]);
 		else
 			printf(" %02x", 256 + sa[ha]);
@@ -64,5 +64,5 @@ void print_python_list(PyObject *p)
 		printf("Element %ld: %s\n", ha, ((obj)->ob_type)->tp_name);
 		if (PyBytes_Check(obj))
 			print_python_bytes(obj);
-	}
-
+}
+}
