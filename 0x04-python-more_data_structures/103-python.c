@@ -29,7 +29,7 @@ void print_python_bytes(PyObject *p)
 	else
 		ff = si + 1;
 
-	printf("  first %ld bytes:", limit);
+	printf("  first %ld bytes:", ff);
 
 	for (ha = 0; ha < ff; ha++)
 		if (string[i] >= 0)
@@ -60,8 +60,8 @@ void print_python_list(PyObject *p)
 
 	for (ha = 0; ha < size; ha++)
 	{
-		obj = ((PyListObject *)p)->ob_item[i];
-		printf("Element %ld: %s\n", i, ((obj)->ob_type)->tp_name);
+		obj = ((PyListObject *)p)->ob_item[ha];
+		printf("Element %ld: %s\n", ha, ((obj)->ob_type)->tp_name);
 		if (PyBytes_Check(obj))
 			print_python_bytes(obj);
 	}
