@@ -8,14 +8,14 @@ class Square:
     def __init__(self, size=0):
         """Initialize a new square.
 
-        Args:
-            size (int): The size of the new square.
+        elcomment hena 8aryb gedan fa yala bena no7ot ely 
+        fahmenoo
         """
         self.size = size
 
     @property
     def size(self):
-        """Get/set the current size of the square."""
+        """5od aw 7ot ay haga kolo zay b3d gedn yalaa."""
         return (self.__size)
 
     @size.setter
@@ -27,5 +27,5 @@ class Square:
         self.__size = value
 
     def area(self):
-        """Return the current area of the square."""
+        """htrag3ly alarea bta3et al function self so 5od."""
         return (self.__size * self.__size)
