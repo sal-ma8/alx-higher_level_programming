@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Define a MagicClass matching exactly ."""
+"""Define a MagicClass matching exactly to do some things."""
 
 import math
 
@@ -11,7 +11,7 @@ class MagicClass:
         """Initialize a MagicClass.
 
         Arg:
-            radius (float or int): this is a function which doing som opration for our program..
+            radius (float or int): this is a function which doing som opration.
         """
         self.__radius = 0
         if type(radius) is not int and type(radius) is not float:
@@ -19,7 +19,7 @@ class MagicClass:
         self.__radius = radius
 
     def area(self):
-        """this is a function which doing som opration for our program.."""
+        """this is a function which doing som opration for our program."""
         return (self.__radius ** 2 * math.pi)
 
     def circumference(self):
