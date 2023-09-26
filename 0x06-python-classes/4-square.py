@@ -3,10 +3,11 @@
 
 
 class Square:
-    """ a square"""
+    """ class square"""
 
     def __init__(self, size=0):
         self.size = size
+        """function for print size """
 
     @property
     def size(self):
