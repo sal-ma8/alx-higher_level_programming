@@ -4,14 +4,14 @@ import sys
 
 
 def safe_function(fct, *args):
-    """DGYFUDGH JDFLJH HIIR HDFJK.
+    """fbjh nuhgviuy hb hvgurh jghr gu.
 
     Args:
-        fct: DHFYUEDU YR7Y GASODO EIZ.
-        args: GDFYUGVRIB GBUVR .
+        fct: fjh gfgh  ufghufhhf hh.
+        args: fg ahgkfdjhjdjf s hdf.
 
     Returns:
-        shfuhi huidhfuui hr uhe euiy uehfigcsdG AJFG RH.
+        shfuhi huidhfuui hr uhe euiy ue gfg hfgh.
     """
     try:
         result = fct(*args)
