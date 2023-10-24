@@ -6,11 +6,11 @@ def matrix_divided(matrix, div):
     """Divides all elements of matrix by div.
     Args:
         matrix: List of lists containinoat
-        div: number to divide matrix by
+        div: number to divide matrix jfgkfnkg 
     Returns:
-        list: List of lists representing divided matrix.
+        list: List of lists representing fkjgfdn kfhkgnkdjfb jf.
     Raises:
-        TypeError: If matrix is not list of lists containing int or fl.
+        TypeError: If matof lists containing int or flb jdbjvbfkc kbfkjg.
         ZeroDivisionError: If div is zero.
     """
     if not isinstance(div, (int, float)):
