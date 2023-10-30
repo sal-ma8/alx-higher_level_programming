@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-fbgklwrfbjiafv kwtjioghf[vn fvqrehviwr.
+Module for class_to_json method.
 """
 
 
 def class_to_json(obj):
     """
-        vtfoihkvyutdyjyhkjlg hl; 'h;ih hg gi;koifyg gjlvh.
+        returns dictionary representation with simple data structure.
     """
-    return obj.__dict___
+    return obj.__dict__
