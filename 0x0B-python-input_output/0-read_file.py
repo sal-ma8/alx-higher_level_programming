@@ -1,13 +1,14 @@
 #!/usr/bin/python3
 """
-THIS IS A FIRST FILE  FOR THIS 
+dsfosejg wuhgkjg s[rhgsfjgnbkhjrj gi isugfs;jp
 """
+
 
 def read_file(filename=""):
     """
-    read_file - DKJGSHGKKJ RGFvvbdg gf 
+    read_file - dfaih ijosdio[f epsjfp njfopsh'fajigh[ahg
     Args:
-        filename: ksagdigjJADBS dfg fgbc gb g  EF
+        filename: fghf idifjij ghi
     """
     with open(filename, "r", encoding="UTF-8") as f:
         for line in f:
