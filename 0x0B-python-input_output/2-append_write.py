@@ -1,17 +1,17 @@
 #!/usr/bin/python3
 """
-append_write module
+wEWKHJH JHDHEWD Hk
 """
 
 
 def append_write(filename="", text=""):
     """
-    write_file - appends a string at the end of a text file (UTF8),
-                and returns the number of characters added:
+    write_file - zjdfih nfih ejgiejogij pj jfojvj flhdfo r (UTF8),
+                fbfg dhfhofojfj jfmvkljodfjlj kpoj vphaif:
     Args:
-        filename: name of the file
-        text: text to be written
-    Return: number of bytes written.
+        filename: ehfohofrp iohfiorjfo
+        text: fhgn huhioh ih h
+    Return: fioghs tih krgkle hhvf hfh .
     """
     with open(filename, mode="a", encoding="UTF-8") as f:
         return (f.write(text))
