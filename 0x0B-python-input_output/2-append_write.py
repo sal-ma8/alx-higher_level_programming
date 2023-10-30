@@ -1,9 +1,17 @@
 #!/usr/bin/python3
-def read_lines(filename="", nb_lines=0):
-    cont = 0
-    with open(filename, 'r') as f:
-        for li in f:
-            if nb_lines == cont and nb_lines > 0:
-                break
-            print(li, end="")
-            cont += 1
+"""
+append_write module
+"""
+
+
+def append_write(filename="", text=""):
+    """
+    write_file - appends a string at the end of a text file (UTF8),
+                and returns the number of characters added:
+    Args:
+        filename: name of the file
+        text: text to be written
+    Return: number of bytes written.
+    """
+    with open(filename, mode="a", encoding="UTF-8") as f:
+        return (f.write(text))
