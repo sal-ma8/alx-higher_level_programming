@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-fhioghfjghfgj fhgngfjkjkffzbjhvj fbghakvg g sf.
+Module for log parsing scripts.
 """
 
 
