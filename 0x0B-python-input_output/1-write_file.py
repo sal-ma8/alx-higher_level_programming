@@ -1,7 +1,15 @@
 #!/usr/bin/python3
-def number_of_lines(filename=""):
-    cont = 0
-    with open(filename, 'r') as f:
-        for li in f:
-            cont += 1
-    return cont
+"""
+this is a secoiunffnlnhnklrk bnljfnl
+"""
+
+
+def write_file(filename="", text=""):
+    """
+    write_file - dfjhgihfg dfhif  sifj kdfjv kjfv 
+    Args:
+        filename: fbkjarfjonibh k oihl 
+        text:  uepodfu eufiEOI  F U09 UF 
+    """
+    with open(filename, mode="w", encoding="UTF-8") as f:
+        return (f.write(text))
