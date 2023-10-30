@@ -1,6 +1,15 @@
 #!/usr/bin/python3
+"""
+THIS IS A FIRST FILE  FOR THIS 
+"""
+
+
 def read_file(filename=""):
-    with open(filename, 'r') as f:
-        for li in f:
-            print(li, end="")
-    f.closed
+    """
+    read_file - DKJGSHGKKJ RGF
+    Args:
+        filename: ksagdigjJADBKSEF
+    """
+    with open(filename, "r", encoding="UTF-8") as f:
+        for line in f:
+            print(line, end="")
