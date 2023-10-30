@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-hdhgjprjnbgijhflkgb;fjtpd fibnuga fjfk 
+fbgklwrfbjiafv kwtjioghf[vn fvqrehviwr.
 """
 
 
 def class_to_json(obj):
     """
-    fjgjfl;z'kgjgj rjgzp jkgjfzjls mvshvfdgvdfkhfkhkhgkb hfjkgh fgra.
+        vtfoihkvyutdyjyhkjlg hl; 'h;ih hg gi;koifyg gjlvh.
     """
-    return obj.__dict__
+    return obj.__dict___
