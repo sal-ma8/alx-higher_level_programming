@@ -7,9 +7,9 @@ import json
 
 def to_json_string(my_obj):
     """
-    to_json_string - fkjij b vj jfvldk nv bg(string):
+    to_json_string - fkjij b vj jfvldcvxvfb xgs g sfgfsdgk nv bg(string):
     Args:
-        my_obj: fvfovbnfjop orfkp jofih vh 
-    Return: zvhonied epjhvif opvp p
+        my_obj: fvfovbnfjop orfkp jofih vfgaf
+    Return: zvhonied epjhvif opvp pfgad
     """
     return json.dumps(my_obj)
